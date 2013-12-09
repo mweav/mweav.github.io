@@ -1,0 +1,49 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+#bar_graph {
+	font-family: 'Oxygen', sans-serif;
+	font-weight: 300;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+
+
+.x.axis path {
+  display: none;
+}
+
+.d3-tip {
+  line-height: 1;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: 400;
+  padding: 5px;
+  background: rgba(50, 50, 50, .9);
+  color: #fff;
+  border-radius: 2px;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(50, 50,50, .9);
+  content: "\25BC";
+  position: absolute;
+  text-align: center;
+}
+
+/* Style northward tooltips differently */
+.d3-tip.n:after {
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+}
