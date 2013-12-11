@@ -31,7 +31,6 @@ var svg = d3.select("#bar_graph").append("svg")
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-
 //INSERT FILE URL HERE!!!
 d3.csv("data/data.csv", function(error, data) {
   var legendNames = d3.keys(data[0]).filter(function(key) { return key !== "Grouping"; });
@@ -127,6 +126,6 @@ d3.csv("data/data.csv", function(error, data) {
             tspan.attr('x', 0).attr('dy', '15');
     }
   };
-  
+
   svg.selectAll('g.x.axis g text').each(insertLinebreaks);
 });
