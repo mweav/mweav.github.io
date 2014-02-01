@@ -26,7 +26,7 @@ $(document).ready(function(){
   			t[ans[i]]++;
   		}
   		
-  		var max =  - 1;
+  		var max =  1;
   		var maxval =  - 1;
   		for(var i = 0; i < 5; i++)
   		{
@@ -39,15 +39,15 @@ $(document).ready(function(){
 
   		var resultsHTML;
 
-  		if(max = 0)
+  		if(max == 0)
   			resultsHTML="<b>Biomedical Library:</b> This place makes Fisher Fine Arts seem straight up social. Only come here if it&#39s time to buckle down. You&#39ve been procrastinating and need some forced motivation (and silence). <br> Location: 36th and Hamilton Walk <br> Hours: Sunday 10 a.m. - midnight, Monday - Thursday 8 a.m. - midnight, Friday 8 a.m - 10 p.m., Saturday 10 a.m. - 6 p.m.";
-  		else if(max = 1)
+  		else if(max == 1)
   			resultsHTML="<b>Education Commons:</b> This magical land of bean bag chairs, royal blue couches and spotless group study rooms may be full of athletes, and on the totally wrong side of campus, but there&#39s no other place that makes a full day of studying pleasant. Pro - tip: grab a smoothie or a wrap from Brysi downstairs before settling in.<br>Location: Franklin Field (33rd between Spruce and Walnut)<br>Hours: Sunday 10 a.m. - 11 p.m., Monday - Thursday 9 a.m. - 11 p.m., Friday - Saturday 9 a.m. - 6 p.m.";
-  		else if(max = 2)
+  		else if(max == 2)
   			resultsHTML="<b>Inn at Penn:</b> Alright, Princess, we get it. You want the finer things in life, but you kind of have some work to do too. Snag a couch amongst visiting parents and Wharton alums and make yourself at home by the crackling fire. If you stay too late, just ask for a room!<br>Location: 37th and Walnut<br>Hours:  24/7";
-  		else if(max = 3)
+  		else if(max == 3)
   			resultsHTML="<b>Highrises:</b> For studying with a view, go straight to the Rooftop Lounges. If you&#39re scared of heights, each floor has its own study lounge too. Don&#39t forget cash because the cafés downstairs don&#39t accept bursar.<br>Location: 39th and Locust<br>Hours: 24/7, requires sign in after 2 a.m.";
-  		else if(max = 4)
+  		else if(max == 4)
   			resultsHTML="<b>Joe&#39s Cafe:</b> This is a social spot, but a great place to settle for casual work, group brainstorming, or long readings—with coffee, pastries and free soup samples at your disposal.<br>Location: Steinberg Hall - Dietrich Hall, 37th and Spruce<br>Hours: Monday - Thursday 8 a.m. - 5 p.m., Friday 8:30 a.m. - 2 p.m.";
 
   		$("#quiz_results").html(resultsHTML);
