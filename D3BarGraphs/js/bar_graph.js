@@ -1,7 +1,7 @@
 var totalWidth = 600;
     totalHeight = 450;
 
-var margin = {top: 20, right: 20, bottom: 40, left: 40},
+var margin = {top: 40, right: 20, bottom: 40, left: 40},
     width = totalWidth - margin.left - margin.right,
     height = totalHeight - margin.top - margin.bottom;
 
