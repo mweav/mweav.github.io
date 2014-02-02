@@ -46,7 +46,7 @@ $(document).ready(function(){
   		else if(max == 2)
   			resultsHTML="<b>Inn at Penn:</b> Alright, Princess, we get it. You want the finer things in life, but you kind of have some work to do too. Snag a couch amongst visiting parents and Wharton alums and make yourself at home by the crackling fire. If you stay too late, just ask for a room!<br>Location: 37th and Walnut<br>Hours:  24/7";
   		else if(max == 3)
-  			resultsHTML="<b>Highrises:</b> For studying with a view, go straight to the Rooftop Lounges. If you&#39re scared of heights, each floor has its own study lounge too. Don&#39t forget cash because the cafés downstairs don&#39t accept bursar.<br>Location: 39th and Locust<br>Hours: 24/7, requires sign in after 2 a.m.";
+  			resultsHTML="<b>Highrises:</b> For studying with a view, go straight to the Rooftop Lounges. If you&#39re scared of heights, each floor has its own study lounge too. Don&#39t forget cash because the caf&eacute;s downstairs don&#39t accept bursar.<br>Location: 39th and Locust<br>Hours: 24/7, requires sign in after 2 a.m.";
   		else if(max == 4)
   			resultsHTML="<b>Joe&#39s Cafe:</b> This is a social spot, but a great place to settle for casual work, group brainstorming, or long readings—with coffee, pastries and free soup samples at your disposal.<br>Location: Steinberg Hall - Dietrich Hall, 37th and Spruce<br>Hours: Monday - Thursday 8 a.m. - 5 p.m., Friday 8:30 a.m. - 2 p.m.";
 
