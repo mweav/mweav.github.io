@@ -53,7 +53,7 @@
 				<img src="img/compass.jpg">
 				<img src="img/quad.jpg">
 			</div>
-
+			<div id="wrapper"><div id="scroller">
 			<div id="parallaxText" data-stellar-ratio=".7" style="margin-top: 10px;">
 				<div class="jumbotron">
 					<h2>The Daily Pennsylvanian welcomes the Penn Class of 2018!</h2>
@@ -109,6 +109,7 @@
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 			  	</div>
 		  	</div>
+		</div></div>
 		</div><!-- /.container -->
 
 		<div id="newsfeed" class="container col-sm-3 col-xs-12" style="margin-top: 10px;">
@@ -201,12 +202,39 @@
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/stellar.js"></script>
+		<script src="js/iscroll.js"></script>
 		<div class="hidden-xs"><script>
-			$.stellar({
-				 responsive: false,
-				 verticalOffset: 55,
-				 horizontalScrolling: false
-			});
+			(function(){
+			  var ua = navigator.userAgent,
+			    isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
+
+			  if (isMobileWebkit) {
+			    $('html').addClass('mobile');
+			  }
+
+			  $(function(){
+			    var iScrollInstance;
+
+			    if (isMobileWebkit) {
+			      iScrollInstance = new iScroll('wrapper');
+
+			      $('#scroller').stellar({
+			        scrollProperty: 'transform',
+			        positionProperty: 'transform',
+			        responsive: true,
+				 	verticalOffset: 150,
+				 	horizontalScrolling: false
+			      });
+			    } else {
+			      $.stellar({
+			        responsive: true,
+				 	verticalOffset: 150,
+				 	horizontalScrolling: false
+			      });
+			    }
+			  });
+
+			})();
 		</script></div>
 
 		<div class="visible-xs"><script>
