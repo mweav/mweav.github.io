@@ -42,6 +42,12 @@ h1, h2, h3, h4, h5, h6 {
 	background-attachment: fixed;
 }
 
+#bgimg img{
+	position: relative;
+	width: 100%;
+	left: 0px;
+}
+
 #parallaxText {
 	position: relative;
 	background-attachment: fixed;
