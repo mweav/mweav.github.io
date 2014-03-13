@@ -29,10 +29,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-	background: rgba(255, 255, 255, .7);
+	background: rgba(255, 255, 255, .6);
 	position: relative;
-	left: 0px;
-	padding: 10px;
 	background-attachment: fixed;
 }
 
@@ -45,7 +43,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #parallaxText {
-	position: absolute;
+	position: relative;
+	background-attachment: fixed;
 }
 
 #newsfeed {
