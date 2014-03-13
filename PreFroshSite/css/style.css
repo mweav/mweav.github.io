@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .mobile body {
   overflow: hidden;
-  padding-top: 55px;
+  padding-top: 200px;
 }
 
 .mobile #wrapper {
