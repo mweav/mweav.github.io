@@ -158,13 +158,16 @@
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="js/stellar.js"></script>
-		<script>
+		<div class="hidden-xs"><script>
 			$.stellar({
 				 responsive: false,
 				 verticalOffset: 55,
 				 horizontalScrolling: false
 			});
-		</script>
+		</script></div>
 
+		<div class="visible-xs"><script>
+			$(".navbar-brand img").css("width", "200px");
+		</script></div>
 	</body>
 </html>
