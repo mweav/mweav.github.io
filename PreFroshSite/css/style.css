@@ -57,3 +57,19 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 55px;
 	overflow-y: auto;
 }
+
+.mobile body {
+  overflow: hidden;
+}
+
+.mobile #wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.mobile #scroller {
+  height: 3000px;
+}
