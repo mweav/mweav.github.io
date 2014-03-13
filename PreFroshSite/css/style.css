@@ -13,11 +13,11 @@ h1, h2, h3, h4, h5, h6 {
 .navbar {
 	font-family: 'Oxygen', sans-serif;
 	padding-right: 10px;
-	padding-left: 10px;
 	height: 55px;
 }
 
 .navbar-brand img {
+	left: 0px;
 	max-height: 30px;
 }
 
