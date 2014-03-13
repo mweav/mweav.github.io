@@ -1,0 +1,7 @@
+<div id="footer">
+	<div class="container">
+		<a href="http://www.thedp.com/"><img src = "img/dailypenn.png" alt="photo"></a>
+		<p id="footer-text2" class = "footer-text text-center">Website created by Matthew Weaver and powered by SNWorks.</p>
+		<p id="footer-text" class = "text-center">&#169; The Daily Pennsylvanian, 2014</p>
+	</div>
+</div>

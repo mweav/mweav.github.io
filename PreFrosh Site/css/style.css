@@ -1,0 +1,61 @@
+@import url(http://fonts.googleapis.com/css?family=Average);
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+body {
+	font-family: 'Average', serif;
+	padding-top: 55px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Oxygen ', sans-serif;
+}
+
+.navbar {
+	font-family: 'Oxygen', sans-serif;
+	padding-right: 10px;
+	padding-left: 10px;
+	height: 55px;
+}
+
+.navbar img {
+	max-height: 30px;
+}
+
+#footer {
+	background: #000000;
+	color: #A0A0A0;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.jumbotron {
+	background: rgba(255, 255, 255, .7);
+	position: relative;
+	left: 0px;
+	padding: 10px;
+	background-attachment: fixed;
+}
+
+#bgimg {
+	position: absolute;
+	width: 100%;
+	left: 0px;
+	z-index: -1;
+	background-attachment: fixed;
+}
+
+#parallaxText {
+	position: absolute;
+}
+
+#newsfeed {
+	height: 100%;
+	max-height: 100%;
+	position: fixed;
+	right: 0;
+	padding-bottom: 55px;
+}
+
+#newsfeed:hover {
+    overflow-y: auto;
+}

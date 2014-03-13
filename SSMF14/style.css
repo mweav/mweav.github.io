@@ -12,28 +12,3 @@ a {
 a:hover {
 	color: #A0A0A0;
 }
-
-.quiz_container .quiz_question {
-	font-size: 16pt;
-}
-
-.quiz_container .quiz_question ol li {
-	font-size: 12pt;
-	list-style-type: none;
-}
-
-.quiz_container .unanswered ol li:hover {
-	color: #C0C0C0;
-	cursor: pointer;
-}
-
-
-.quiz_container .answered .selected {
-	font-style: italic;
-	color: #000000;
-}
-
-
-.quiz_container .answered ol li {
-	color: #C0C0C0;
-}
