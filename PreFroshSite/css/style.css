@@ -49,10 +49,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #newsfeed {
-	height: 100%;
-	max-height: 100%;
-	position: fixed;
-	right: 0;
 	padding-bottom: 55px;
 }
 
