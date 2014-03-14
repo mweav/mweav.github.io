@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #newsfeed {
+	position: relative;
 	padding-bottom: 55px;
 	overflow-y: auto;
 }
