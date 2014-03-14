@@ -22,6 +22,14 @@ h1, h2, h3, h4, h5, h6 {
 	width: 200px;
 }
 
+.navbar-collapse .li {
+	background: #222222;
+}
+
+.navbar-collapse .li .active {
+	background: #080808;
+}
+
 #footer {
 	background: #000000;
 	color: #A0A0A0;
