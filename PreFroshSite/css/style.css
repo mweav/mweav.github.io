@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-brand img {
 	left: 0px;
 	max-height: 30px;
+	width: 200px;
 }
 
 #footer {
