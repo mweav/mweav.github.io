@@ -59,3 +59,11 @@ h1, h2, h3, h4, h5, h6 {
 	overflow-y: auto;
 }
 
+.list-group .active {
+	background: #E0E0E0;
+}
+
+.article {
+	padding-left: 10%;
+	padding-right: 10%;
+}
