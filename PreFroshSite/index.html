@@ -129,7 +129,7 @@
 
 		<div id="newsfeed" class="container col-sm-3 col-xs-12" style="position: relative;">
 			<div  class="list-group">
-				<div class="newsfeed-title panel"><h3>Class of 2018 Newsfeed</h3></div>
+				<div class="newsfeed-title panel"><h3 id="feedTitle">Class of 2018 Newsfeed</h3></div>
 				<div class="newsfeed-articles">
 
 				<div class="list-group-item">
@@ -260,8 +260,10 @@
 		</script></div>
 
 		<script>
-			if($('.newsfeed-title').width()>$('.newsfeed').width())
-
+			if($(window).width()>767 && $(window).width()<992)
+			{
+				$('#feedTitle').html("Newsfeed");
+			}
 		</script>
 
 		<div class="hidden-xs"><script>
