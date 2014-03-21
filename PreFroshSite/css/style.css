@@ -1,17 +1,17 @@
-@import url(http://fonts.googleapis.com/css?family=Average);
-@import url(http://fonts.googleapis.com/css?family=Oxygen);
+@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Roboto);
 
 body {
-	font-family: 'Average', serif;
+	font-family: 'Lato', serif;
 	padding-top: 50px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oxygen ', sans-serif;
+	font-family: 'Roboto ', sans-serif;
 }
 
 .navbar {
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding-right: 10px;
 	height: 50px;
 }
@@ -38,7 +38,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .jumbotron {
-	background: rgba(255, 255, 255, .6);
+	background: rgba(255, 255, 255, .7);
 	position: relative;
 	background-attachment: fixed;
 	z-index: 1;
