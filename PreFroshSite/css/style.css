@@ -115,6 +115,6 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 }
  
-.fb-like {
-	padding-top: -1000px;
+.twitter-share-button {
+	padding-top: 50px;
 }
