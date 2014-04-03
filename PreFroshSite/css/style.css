@@ -112,9 +112,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-media-share {
-	display: inline-block;
+	width:940px;
+	margin:auto;
+	height:30px;
 }
 
-.twitter-fix {
-	display: inline-block;
+.social-media-list { 
+	width: 393px;
+}
+.social-media-list li { 
+	display:block; 
+	float: left; 
+	width:33.3%; 
+	text-align:center; 
+	margin: 0 auto;
 }
