@@ -112,9 +112,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-media-share {
-	display: inline;
+	display: inline-block;
 }
 
 .twitter-fix {
 	padding-top: 15px;
+	display: inline-block;
 }
