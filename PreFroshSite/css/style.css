@@ -112,13 +112,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social-media-share {
-	width:940px;
+	width:200px;
 	margin:auto;
-	height:30px;
+	height:20px;
 }
 
 .social-media-list { 
-	width: 393px;
+	width: 200px;
+	left: 10px;
 }
 .social-media-list li { 
 	display:block; 
