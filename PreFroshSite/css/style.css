@@ -113,18 +113,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .social-media-share {
 	width:220px;
-	height:20px;
-	margi-left: -50px;
+	margin-left: -50px;
 }
 
 .social-media-list { 
 	width: 200px;
-	left: 10px;
 }
 .social-media-list li { 
 	display:block; 
 	float: left; 
 	width:50%; 
-	text-align:center; 
+	text-align:left; 
 	margin: 0 auto;
 }
