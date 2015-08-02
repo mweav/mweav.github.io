@@ -1,12 +1,184 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Matthew Weaver's Github Page</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    </head>
-    
-    <body>
-    </body>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Matthew Weaver</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <span class="light">Home</span>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">About Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#papers">Talks and Papers</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+		    </li>		    
+                    <li>
+                        <a class="page-scroll" href="blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Intro Header -->
+    <header class="intro">
+        <div class="intro-body">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2">
+                        <h1 class="brand-heading">Matthew Weaver</h1>
+                        <p class="intro-text">My personal webpage.</p>
+                        <a href="#about" class="btn btn-circle page-scroll">
+                            <i class="fa fa-angle-double-down animated"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="container content-section text-center">
+        <div class="row">
+	    <div class="col-lg-1 col-lg-offset-1 col-md-1 col-md-offset-1 hidden-sm hidden-xs">
+	      <img src="img/me.jpg" alt="photo of me" width=225></div>
+	    <div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-2 col-sm-8 col-sm-offset-2 col-xs-8 col-xs-offset-2">
+	      <h2>About Me</h2>
+                <p>I am currently an undergraduate at the University of
+    Pennsylvania studying math. My academic interests lie in
+	      logic and programming langauge theory.</p>
+
+	      <p>My life is both powered and motivated by food. To
+        compensate for all of the eating this causes, I run
+        marathons. I also enjoy photography, yet ironically am not one
+        to take pictures of my food; the two do best when separated.</p>
+        </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="papers" class="content-section text-center papers-section">
+	<div class="container">
+	<div class="col-lg-8 col-lg-offset-2">
+	  <h2>Talks and Papers</h2>
+	  <div class="list-group text-left">
+	    <a href="papers/eatcs15.pdf" class="list-group-item">
+	    Loris D'Antoni, Matthew Weaver, Alexander Weinert, Rajeev
+	    Alur.
+	    <b>Automata Tutor and what we learned from building an
+	    online teaching tool. </b>
+
+	    To be in <i>The Bulletin of the European
+    Association for Theoretical Computer Science,</i> October 2015.  
+	    </a>
+	    
+	    <a href="papers/plooc15.pdf" class="list-group-item">
+	    Rajeev Alur, Loris D'Antoni, Sumit Gulwani, Bjoern
+	    Hartmann, Dileep Kini, Mahesh Viswanathan, Matthew Weaver,
+	    Alex Weinert.
+	    
+	    <b>Automata Tutor and what we learned from building an
+	    online teaching tool.</b>
+	    
+	    At <i>Programming Language Technologies for Online Open
+	    Courses,</i> 2015.	    
+	    </a>
+	  </div>
+	</div>
+	</div>
+	</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container content-section text-center">
+        <div class="row">
+	<div class="col-lg-8 col-lg-offset-2">
+                <h2>Contact Me</h2>
+                <p>Email: <a href="mailto:mweav@sas.upenn.edu">mweav@sas.upenn.edu</a></p>
+                <ul class="list-inline banner-social-buttons">
+                    <li>
+                        <a href="https://twitter.com/mweaver223" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/mweav" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+		    </li>	    
+                    <li>
+                        <a href="blog.html" class="btn btn-default btn-lg"><span class="network-name">Blog</span></a>
+		    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <p>Copyright &copy; 2015</p>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/grayscale.js"></script>
+
+</body>
+
 </html>
