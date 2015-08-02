@@ -259,7 +259,7 @@ a:focus {
 
 .content-section {
     padding-top: 100px;
-    height: 100%;
+    min-height: 100%;
 }
 
 .papers-section {
